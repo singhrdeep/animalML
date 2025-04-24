@@ -33,7 +33,7 @@ make clean
 ## Run Instructions
 
 ```bash
-./animalML
+./animalml
 ```
 
 ## About
