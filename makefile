@@ -8,4 +8,4 @@ animalmlMain.o: easymlMain.c given.h
 	gcc -Wall -std=c99 -c animalmlMain.c
 
 clean:
-	rm *.o eanimalml
+	rm *.o animalml
