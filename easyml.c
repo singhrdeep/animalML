@@ -3,7 +3,6 @@
 #include <string.h>
 #include <math.h>
 #include "given.h"
-/* THIS IS TorotaneRamandeepA1.c */
 
 /* Call structs */
 struct Animal dataZoo[NUM_SAMPLES];
