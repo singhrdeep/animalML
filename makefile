@@ -1,11 +1,11 @@
-easyml: easyml.o easymlMain.o
-	gcc easyml.o easymlMain.o -o easyml -lm
+animalml: animalml.o animalmlMain.o
+	gcc animalml.o animalmlMain.o -o animalml -lm
 
-easyml.o: easyml.c given.h
-	gcc -Wall -std=c99 -c easyml.c
+animalml.o: animalml.c given.h
+	gcc -Wall -std=c99 -c animalml.c
 
-easymlMain.o: easymlMain.c given.h
-	gcc -Wall -std=c99 -c easymlMain.c
+animalmlMain.o: easymlMain.c given.h
+	gcc -Wall -std=c99 -c animalmlMain.c
 
 clean:
-	rm *.o easyml
+	rm *.o eanimalml
