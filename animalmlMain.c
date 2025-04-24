@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
   // declare variables for task 3
   int newSample[NUM_FEATURES] = {1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1}; 
-  int kNearestNeighbors[NUM_SAMPLES];  // store k nearest neighbors
+  int kNearestNeighbors[NUM_SAMPLES];  // store k-nearest neighbors
   int k = 5;    // number of neighbors
 
   // declare variables for task 4
