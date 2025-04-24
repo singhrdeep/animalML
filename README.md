@@ -33,9 +33,9 @@ make clean
 ## Run Instructions
 
 ```bash
-./ramandeepSingh_easyML
+./easyml
 ```
 
-## Developed at
+## About
 
-University of Guelph – for educational and demonstration purposes.
+This project was originally developed at the University of Guelph to help illustrate foundational programming and machine learning concepts in C. While it was built in an academic setting, it has been adapted for public sharing and broader learning.
