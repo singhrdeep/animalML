@@ -21,7 +21,7 @@ int readFromFile(char fName[30], struct Animal dataZoo[NUM_SAMPLES]) {
     return -1;
   }
 
-  // for loop to read the animalName, features, and classLabel
+  // for loop to read the animalName, features, and classlabel
   for (int i = 0; i < NUM_SAMPLES; i++) {
     // read the animal name
     fscanf(file, "%s", dataZoo[i].animalName);
